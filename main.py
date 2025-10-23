@@ -65,7 +65,7 @@ if __name__ == "__main__":
                         type=str,
                         metavar="MEMBER_KEY")
 
-    parser.add_argument("--cafe", 
+    parser.add_argument("--article", 
                         nargs=2,
                         type=str, 
                         metavar=("CAFE_ID", "ARTICLE_ID"))
@@ -98,7 +98,7 @@ if __name__ == "__main__":
             print(f"{Fore.RED}[-] 멤버 키 조회 중 오류 발생: {e}")
             print(f"{Fore.YELLOW}   (Cookie가 만료되었거나 member_key가 잘못되었을 수 있습니다.)")
 
-    elif args.cafe:
+    elif args.article:
         cafe_id = args.cafe[0]
         article_id = args.cafe[1]
         print(f"{Fore.GREEN}[{Fore.WHITE}*{Fore.GREEN}] Checking Cafe Article: {Fore.WHITE}{cafe_id} / {article_id}\n")
