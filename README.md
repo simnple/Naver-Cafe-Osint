@@ -35,9 +35,9 @@ COOKIE="YOUR_NAVER_COOKIE"
 ```
 
 ## Usage
-To retrieve member information using a `Member Key`:
+To retrieve member information using a `member_key`:
 ```
-py main.py --memberkey (member key)
+py main.py --memberkey (member_key)
 ```
 
 To retrieve member information from a cafe post (using `cafe_id` and `article_id`):
