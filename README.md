@@ -37,17 +37,17 @@ COOKIE="YOUR_NAVER_COOKIE"
 ## Usage
 To retrieve member information using a `member_key`:
 ```
-py main.py --memberkey (member_key)
+$ py main.py --memberkey (member_key)
 ```
 
 To retrieve member information from a cafe post (using `cafe_id` and `article_id`):
 ```
-py main.py --article (cafe_id) (article_id)
+$ py main.py --article (cafe_id) (article_id)
 ```
 
 For a detailed explanation of the arguments, use the help command:
 ```
-py main.py --help
+$ py main.py --help
 usage: main.py [-h] [--memberkey MEMBER_KEY]
                [--article CAFE_ID ARTICLE_ID]
 
