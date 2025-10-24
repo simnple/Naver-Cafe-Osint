@@ -94,8 +94,8 @@ if __name__ == "__main__":
         print(f"{Fore.WHITE}[{Fore.GREEN}+{Fore.WHITE}] {Fore.GREEN}Member Key: {Fore.WHITE}{member_key}")
 
     elif args.article:
-        cafe_id = args.cafe[0]
-        article_id = args.cafe[1]
+        cafe_id = args.article[0]
+        article_id = args.article[1]
         print(f"{Fore.GREEN}[{Fore.WHITE}*{Fore.GREEN}] Checking Cafe Article: {Fore.WHITE}{cafe_id} / {article_id}\n")
 
         writer_info = get_writer_info(cafe_id, article_id)
