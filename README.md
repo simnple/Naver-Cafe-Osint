@@ -1,6 +1,6 @@
 # Naver Cafe Osint
 
-!["main"](/images/main.png)
+<!--["main"](/images/main.png)-->
 
 ---
 
