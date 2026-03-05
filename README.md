@@ -1,3 +1,8 @@
+# IT DOESN'T WORK ANYMORE.
+# ALL FEATURES WERE PATCHED OUT BY NAVER.
+
+---
+
 # Naver Cafe Osint
 
 <!--["main"](/images/main.png)-->
